@@ -192,7 +192,7 @@ get_header();
 
 <!-- Intro section -->
 <section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./img/promo-bg.jpg">
-	<a href="https://www.youtube.com/watch?v=uFsGy5x_fyQ" class="video-play-btn video-popup"><img src="img/icons/solid-right-arrow.png" alt="#"></a>
+	<a href="https://www.youtube.com/watch?v=uFsGy5x_fyQ" class="video-play-btn video-popup"><img src="./img/icons/solid-right-arrow.png" alt="#"></a>
 	<div class="container">
 		<div class="video-text">
 			<h2>Promo video of the game</h2>
@@ -205,7 +205,7 @@ get_header();
 
 <!-- Featured section -->
 <section class="featured-section">
-	<div class="featured-bg set-bg" data-setbg="img/featured-bg.jpg"></div>
+	<div class="featured-bg set-bg" data-setbg="./img/featured-bg.jpg"></div>
 	<div class="featured-box">
 		<div class="text-box">
 			<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>

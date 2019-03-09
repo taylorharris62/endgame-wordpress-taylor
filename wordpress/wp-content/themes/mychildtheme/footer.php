@@ -32,24 +32,18 @@
 					<li><a href="">News</a></li>
 					<li><a href="">Contact</a></li>
 				</ul>
-				<div class="copyright"><a href="">Taylor Harris</a> 2019 @ All rights reserved</div>
+				<div class="copyright">
+					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'endgame' ) ); ?>">
+						<?php
+						/* translators: 1: Theme name, 2: Theme author. */
+						printf( esc_html__( 'Theme: %1$s by %2$s.', 'endgame' ), 'endgame', '<a href="http://underscores.me/">Taylor Harris</a>' );
+						?>
+						 2019 @ All rights reserved</div>
 			</div>
 
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'endgame' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'endgame' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'endgame' ), 'endgame', '<a href="http://underscores.me/">Taylor Harris</a>' );
-				?>
-		</div><!-- .site-info -->
+<!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
-
-
+<?php wp_content()?>
+<?php wp_sidebar()?>
 <?php wp_footer(); ?>
