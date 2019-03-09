@@ -18,18 +18,18 @@ get_header();
 <!-- Hero section -->
 <section class="hero-section overflow-hidden">
 	<div class="hero-slider owl-carousel">
-		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/slider-bg-1.jpg">
+		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="./img/slider-bg-1.jpg">
 			<div class="container">
 				<h2>Game on!</h2>
 				<p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
-				<a href="#" class="site-btn">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+				<a href="#" class="site-btn">Read More  <img src="./img/icons/double-arrow.png" alt="#"/></a>
 			</div>
 		</div>
-		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/slider-bg-2.jpg">
+		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="./img/slider-bg-2.jpg">
 			<div class="container">
 				<h2>Game on!</h2>
 				<p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
-				<a href="#" class="site-btn">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+				<a href="#" class="site-btn">Read More  <img src="./img/icons/double-arrow.png" alt="#"/></a>
 			</div>
 		</div>
 	</div>
@@ -118,7 +118,7 @@ get_header();
 						<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
 						<h3>The best online game is out now!</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-						<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+						<a href="#" class="read-more">Read More  <img src="./img/icons/double-arrow.png" alt="#"/></a>
 					</div>
 				</div>
 			</div>
@@ -211,7 +211,7 @@ get_header();
 			<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
 			<h3>The game you’ve been waiting  for is out now</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum posuere porttitor justo id pellentesque. Proin id lacus feugiat, posuere erat sit amet, commodo ipsum. Donec pellentesque vestibulum metus...</p>
-			<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+			<a href="#" class="read-more">Read More  <img src="./img/icons/double-arrow.png" alt="#"/></a>
 		</div>
 	</div>
 </section>
@@ -225,7 +225,7 @@ get_header();
 		<h2>Subscribe to our newsletter</h2>
 		<form class="newsletter-form">
 			<input type="text" placeholder="ENTER YOUR E-MAIL">
-			<button class="site-btn">subscribe  <img src="img/icons/double-arrow.png" alt="#"/></button>
+			<button class="site-btn">subscribe  <img src="./img/icons/double-arrow.png" alt="#"/></button>
 		</form>
 	</div>
 </section>
