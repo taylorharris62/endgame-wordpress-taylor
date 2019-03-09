@@ -1,3 +1,13 @@
+function mychildtheme_enqueue_styles() {
+    $parent_style = 'parent-style';
+
+    wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'child-style',
+        get_stylesheet_directory_uri() . '/style.css',
+        array( $parent_style )
+    );
+}
+
 <?php
 /**
  * EndGam functions and definitions
@@ -158,4 +168,3 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
