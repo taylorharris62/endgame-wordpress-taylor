@@ -17,13 +17,13 @@
 		<!-- Footer section -->
 			<div class="container">
 				<div class="footer-left-pic">
-					<img src="/wp-content/themes/mychildtheme/assets/img/footer-left-pic.png" alt="">
+					<img src="./img/footer-left-pic.png" alt="">
 				</div>
 				<div class="footer-right-pic">
-					<img src="/wp-content/themes/mychildtheme/assets/img/footer-right-pic.png" alt="">
+					<img src="./img/footer-right-pic.png" alt="">
 				</div>
 				<a href="#" class="footer-logo">
-					<img src="/wp-content/themes/mychildtheme/assets/img/logo.png" alt="">
+					<img src="./img/logo.png" alt="">
 				</a>
 				<ul class="main-menu footer-menu">
 					<li><a href="">Home</a></li>
