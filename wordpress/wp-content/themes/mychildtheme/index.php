@@ -16,7 +16,7 @@ get_header();
 ?>
 
 <!-- Hero section -->
-<section class="hero-section overflow-hidden">
+<div class="hero-section overflow-hidden">
 	<div class="hero-slider owl-carousel">
 		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="./img/slider-bg-1.jpg">
 			<div class="container">
@@ -33,7 +33,7 @@ get_header();
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 <!-- Hero section end-->
 
 
