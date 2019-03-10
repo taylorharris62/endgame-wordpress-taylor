@@ -46,7 +46,7 @@ get_header();
 					<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
 					<h3>The best online game is out now!</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida....</p>
-					<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+					<a href="#" class="read-more">Read More  <img src="./img/icons/double-arrow.png" alt="#"/></a>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -54,7 +54,7 @@ get_header();
 					<div class="top-meta">11.11.18  /  in <a href="">Playstation</a></div>
 					<h3>Top 5 best games in november</h3>
 					<p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum  labore suspendisse ultrices gravida....</p>
-					<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+					<a href="#" class="read-more">Read More  <img src="./img/icons/double-arrow.png" alt="#"/></a>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -62,7 +62,7 @@ get_header();
 					<div class="top-meta">11.11.18  /  in <a href="">Reviews</a></div>
 					<h3>Get this game at a promo price</h3>
 					<p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida ncididunt ut labore ....</p>
-					<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+					<a href="#" class="read-more">Read More  <img src="./img/icons/double-arrow.png" alt="#"/></a>
 				</div>
 			</div>
 		</div>
@@ -94,7 +94,7 @@ get_header();
 						<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
 						<h3>The best online game is out now!</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-						<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+						<a href="#" class="read-more">Read More  <img src="./img/icons/double-arrow.png" alt="#"/></a>
 					</div>
 				</div>
 				<!-- Blog item -->
@@ -106,7 +106,7 @@ get_header();
 						<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
 						<h3>The best online game is out now!</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-						<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+						<a href="#" class="read-more">Read More  <img src=".img/icons/double-arrow.png" alt="#"/></a>
 					</div>
 				</div>
 				<!-- Blog item -->
