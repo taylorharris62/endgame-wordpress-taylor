@@ -11,9 +11,9 @@
 
 ?>
 
-	</div><!-- #content -->
+	<!-- #content -->
 
-	<footer id="colophon" class="site-footer footer-section">
+	<footer id="colophon" class="site-footer footer-section" style="margin-top: 0px;">
 		<!-- Footer section -->
 			<div class="container">
 				<div class="footer-left-pic">
@@ -45,17 +45,16 @@
 	</footer><!-- #colophon -->
 	<!-- Footer section end -->
 
-
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.slicknav.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.sticky-sidebar.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/main.js"></script>
-
 </div><!-- #page -->
-<?php wp_content()?>
-<?php wp_sidebar()?>
+<!--====== Javascripts & Jquery ======-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.sticky-sidebar.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/main.js"></script>
 <?php wp_footer(); ?>
+
+</body>
+</html>

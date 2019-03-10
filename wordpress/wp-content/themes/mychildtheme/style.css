@@ -1542,6 +1542,7 @@ ol {
 	.container {
 		max-width: 1175px;
 	}
+
 }
 
 @media (max-width: 1530px) {
@@ -1582,6 +1583,7 @@ ol {
 	.game-filter li a {
 		padding-top: 5px;
 	}
+
 }
 
 /* Tablet :768px. */
