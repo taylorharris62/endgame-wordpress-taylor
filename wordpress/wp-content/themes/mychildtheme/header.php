@@ -29,9 +29,7 @@
 
 <body <?php body_class(); ?>>
   <!-- Page Preloder -->
-  <div id="preloder">
-    <div class="loader"></div>
-  </div>
+  
 <div id="page" class="site">
 
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'endgame' ); ?></a>
