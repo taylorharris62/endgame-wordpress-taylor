@@ -1,6 +1,11 @@
 <?php
 /*
-	Template Name: Blog
+Theme Name: Taylor's Theme
+Description: The custom theme End Game using the parent theme Twenty Seventeen.
+Author: Taylor Harris
+Author URI: idonthaveone.wordpress.org
+Template: endgame
+Version: 1.0
 */
 ?>
 <?php get_header(); ?>

@@ -17,13 +17,14 @@
 		<!-- Footer section -->
 			<div class="container">
 				<div class="footer-left-pic">
-					<img src="./img/footer-left-pic.png" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer-left-pic.png" />
 				</div>
 				<div class="footer-right-pic">
-					<img src="./img/footer-right-pic.png" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/footer-right-pic.png" />
+					
 				</div>
 				<a href="#" class="footer-logo">
-					<img src="./img/logo.png" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.png" />
 				</a>
 				<ul class="main-menu footer-menu">
 					<li><a href="">Home</a></li>
