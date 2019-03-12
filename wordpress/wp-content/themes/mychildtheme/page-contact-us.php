@@ -1,3 +1,15 @@
+<?php 
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package EndGam
+ */
+get_header(); ?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -14,15 +26,15 @@
 
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/slicknav.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" href="css/animate.css"/>
+	<link rel="stylesheet" href="wp-content/themes/mychildtheme/assets/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="wp-content/themes/mychildtheme/assets/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="wp-content/themes/mychildtheme/assets/css/slicknav.min.css"/>
+	<link rel="stylesheet" href="wp-content/themes/mychildtheme/assets/css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="wp-content/themes/mychildtheme/assets/css/magnific-popup.css"/>
+	<link rel="stylesheet" href="wp-content/themes/mychildtheme/assets/css/animate.css"/>
 
 	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="/style.css"/>
 
 
 	<!--[if lt IE 9]>
@@ -33,51 +45,12 @@
 </head>
 <body>
 	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
 
-	<!-- Header section -->
-	<header class="header-section">
-		<div class="header-warp">
-			<div class="header-social d-flex justify-content-end">
-				<p>Follow us:</p>
-				<a href="#"><i class="fa fa-pinterest"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-dribbble"></i></a>
-				<a href="#"><i class="fa fa-behance"></i></a>
-			</div>
-			<div class="header-bar-warp d-flex">
-				<!-- site logo -->
-				<a href="home.html" class="site-logo">
-					<img src="./img/logo.png" alt="">
-				</a>
-				<nav class="top-nav-area w-100">
-					<div class="user-panel">
-						<a href="">Login</a> / <a href="">Register</a>
-					</div>
-					<!-- Menu -->
-					<ul class="main-menu primary-menu">
-						<li><a href="home.html">Home</a></li>
-						<li><a href="games.html">Games</a>
-							<ul class="sub-menu">
-								<li><a href="game-single.html">Game Singel</a></li>
-							</ul>
-						</li>
-						<li><a href="review.html">Reviews</a></li>
-						<li><a href="blog.html">News</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</header>
 	<!-- Header section end -->
 
 
 	<!-- Page top section -->
-	<section class="page-top-section set-bg" data-setbg="img/page-top-bg/4.jpg">
+	<section class="page-top-section set-bg" data-setbg="<?php echo get_stylesheet_directory_uri(); ?>./img/4.jpg" />
 		<div class="page-info">
 			<h2>Contact</h2>
 			<div class="site-breadcrumb">
@@ -100,22 +73,22 @@
 						<input type="text" placeholder="Your e-mail">
 						<input type="text" placeholder="Subject">
 						<textarea placeholder="Message"></textarea>
-						<button class="site-btn">Send message<img src="img/icons/double-arrow.png" alt="#"/></button>
+						<button class="site-btn">Send message<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/double-arrow.png" /></button>
 					</form>
 				</div>
 				<div class="col-lg-5 order-1 order-lg-2 contact-text text-white">
 					<h3>Howdy! Say hello</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
 					<div class="cont-info">
-						<div class="ci-icon"><img src="img/icons/location.png" alt=""></div>
+						<div class="ci-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/location.png" alt="" /></div>
 						<div class="ci-text">Main Str, no 23, New York</div>
 					</div>
 					<div class="cont-info">
-						<div class="ci-icon"><img src="img/icons/phone.png" alt=""></div>
+						<div class="ci-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/phone.png" alt="" /></div>
 						<div class="ci-text">+546 990221 123</div>
 					</div>
 					<div class="cont-info">
-						<div class="ci-icon"><img src="img/icons/mail.png" alt=""></div>
+						<div class="ci-icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/mail.png" alt="" /></div>
 						<div class="ci-text">hosting@contact.com</div>
 					</div>
 				</div>
@@ -131,53 +104,14 @@
 			<h2>Subscribe to our newsletter</h2>
 			<form class="newsletter-form">
 				<input type="text" placeholder="ENTER YOUR E-MAIL">
-				<button class="site-btn">subscribe <img src="img/icons/double-arrow.png" alt="#"/></button>
+				<button class="site-btn">subscribe <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/double-arrow.png" /></button>
 			</form>
 		</div>
 	</section>
 	<!-- Newsletter section end -->
 
 
-	<!-- Footer section -->
-	<footer class="footer-section">
-		<div class="container">
-			<div class="footer-left-pic">
-				<img src="img/footer-left-pic.png" alt="">
-			</div>
-			<div class="footer-right-pic">
-				<img src="img/footer-right-pic.png" alt="">
-			</div>
-			<a href="#" class="footer-logo">
-				<img src="./img/logo.png" alt="">
-			</a>
-			<ul class="main-menu footer-menu">
-				<li><a href="">Home</a></li>
-				<li><a href="">Games</a></li>
-				<li><a href="">Reviews</a></li>
-				<li><a href="">News</a></li>
-				<li><a href="">Contact</a></li>
-			</ul>
-			<div class="footer-social d-flex justify-content-center">
-				<a href="#"><i class="fa fa-pinterest"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-dribbble"></i></a>
-				<a href="#"><i class="fa fa-behance"></i></a>
-			</div>
-			<div class="copyright"><a href="">Colorlib</a> 2018 @ All rights reserved</div>
-		</div>
-	</footer>
-	<!-- Footer section end -->
-
-
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.slicknav.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.sticky-sidebar.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/main.js"></script>
 
 	</body>
 </html>
+<?php get_footer(); ?>
