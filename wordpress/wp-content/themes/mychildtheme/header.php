@@ -23,13 +23,17 @@
 
 <!-- Main Stylesheets -->
 <link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+<link rel="stylesheet" href="css/animate.css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="stylesheet" href="css/magnific-popup.css"/>
+<link rel="stylesheet" href="css/slicknav.min.css"/>
   <?php wp_enqueue_script("jquery"); ?>
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-  <!-- Page Preloder -->
-  
+
 <div id="page" class="site">
 
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'endgame' ); ?></a>
