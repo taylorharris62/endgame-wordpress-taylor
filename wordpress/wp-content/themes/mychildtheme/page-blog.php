@@ -1,102 +1,56 @@
 <?php 
-/**
- * The template for displaying the footer
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package EndGam
- */
-get_header(); ?>
-
-
-<body>
-
-	<!-- Header section end -->
-
-
-	<!-- Page top section -->
-	<section class="page-top-section set-bg" style="background-image: url(/assets/img/4.jpg);">
-		<div class="page-info">
-			<h2>Games</h2>
-			<div class="site-breadcrumb">
-				<a href="">Home</a>  /
-				<span>Games</span>
+/*
+	Template Name: Blog
+*/
+?>
+<?php get_header(); ?>
+    <div class="panel-content">
+	<article class="blog-section">
+    <div class="game-single-preview">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/games/big.jpg" />
+				
 			</div>
-		</div>
-	</section>
-	<!-- Page top end-->
 
-	<!-- Games section -->
-	<section class="games-single-page">
+		<?php // Display blog posts on any page @ https://m0n.co/l
+		$temp = $wp_query; $wp_query= null;
+		$wp_query = new WP_Query(); $wp_query->query('posts_per_page=5' . '&paged='.$paged);
+		while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+
+		<h2><a href="<?php the_permalink(); ?>" title="Read more"><?php the_title(); ?></a></h2>
+		<?php the_excerpt(); ?>
+
+		<?php endwhile; ?>
+
+		<?php if ($paged > 1) { ?>
+
+		<nav id="nav-posts">
+			<div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
+			<div class="next"><?php previous_posts_link('Newer Posts &raquo;'); ?></div>
+		</nav>
+
+		<?php } else { ?>
+
+		<nav id="nav-posts">
+			<div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
+		</nav>
+
+		<?php } ?>
+
+		<?php wp_reset_postdata(); ?>
+
+	</article>
+        </div>
+        <section class="game-author-section">
 		<div class="container">
-			<div class="game-single-preview">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/games/big.jpg" />
-			</div>
-			<div class="row">
-				<div class="col-xl-9 col-lg-8 col-md-7 game-single-content">
-					<div class="gs-meta">11.11.18  /  in <a href="">Games</a></div>
-					<h2 class="gs-title">Final Appocalipse 2.1</h2>
-					<h4>Gameplay</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum posuere porttitor justo id pellentesque. Proin id lacus feugiat, posuere erat sit amet, commodo ipsum. Donec pellentesque vestibulum metus.</p>
-					<h4>Conclusion</h4>
-					<p>Nulla ut maximus mauris. Sed malesuada at sapien sed euismod. Vestibulum pharetra in sem id laoreet. Cras metus ex, placerat nec justo quis, luctus posuere ex. Vivamus volutpat nibh ac sollicitudin imperdiet. Donec scelerisque lorem sodales odio ultricies, nec rhoncus ex lobortis. Vivamus tincidunt sit amet sem id varius. Donec ele-mentum aliquet tortor. Curabitur justo mi, efficitur sed eros aliquet, dictum molestie eros. Nullam scelerisque convallis gravida. Morbi id lorem accumsan, scelerisque enim laoreet, sollicitudin neque. Vivamus volutpat nibh ac sollicitudin imperdiet. Donec scelerisque lorem sodales odio ultricies, nec rhoncus ex lobortis. Vivamus tincidunt sit amet sem id varius. Donec ele-mentum aliquet tortor. Curabitur justo mi, efficitur sed eros aliqueDonec vitae tellus sodales, congue augue at, biben-dum justo. Pellentesque non dolor et magna volutpat pharetra eget vel ligula. Maecenas facilisis vestibulum mattis. Sed sagittis gravida urna. Cras nec mi risus.
-					</p>
-					<div class="geme-social-share pt-5 d-flex">
-						<p>Share:</p>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-dribbble"></i></a>
-						<a href="#"><i class="fa fa-behance"></i></a>
-					</div>
-				</div>
-				<div class="col-xl-3 col-lg-4 col-md-5 sidebar game-page-sideber">
-					<div id="stickySidebar">
-						<div class="widget-item">
-							<div class="rating-widget">
-								<h4 class="widget-title">Ratings</h4>
-								<ul>
-									<li>Price<span>3.5/5</span></li>
-									<li>Graphics<span>4.5/5</span></li>
-									<li>Levels<span>3.5/5</span></li>
-									<li>Levels<span>4.5/5</span></li>
-									<li>Dificulty<span>4.5/5</span></li>
-								</ul>
-								<div class="rating">
-									<h5><i>Rating</i><span>4.5</span> / 5</h5>
-								</div>
-							</div>
-						</div>
-						<div class="widget-item">
-							<div class="testimonials-widget">
-								<h4 class="widget-title">Testimonials</h4>
-								<div class="testim-text">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo re magna aliqua. Quis ipsum suspend isse ultrices.</p>
-									<h6><span>James Smith,</span>Gamer</h6>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Games end-->
-
-	<section class="game-author-section">
-		<div class="container">
-			<div class="game-author-pic set-bg"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/author.jpg" /></div>
+			<div class="game-author-pic set-bg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/author.jpg" /></button></div>
 			<div class="game-author-info">
 				<h4>Written by: Michael Williams</h4>
 				<p>Vivamus volutpat nibh ac sollicitudin imperdiet. Donec scelerisque lorem sodales odio ultricies, nec rhoncus ex lobortis. Vivamus tincid-unt sit amet sem id varius. Donec elementum aliquet tortor. Curabitur justo mi, efficitur sed eros alique.</p>
 			</div>
-		</div>
-	</section>
-
-
-	<!-- Newsletter section -->
+        </div>
+        
+    </section>
+    	<!-- Newsletter section -->
 	<section class="newsletter-section">
 		<div class="container">
 			<h2>Subscribe to our newsletter</h2>
@@ -107,9 +61,4 @@ get_header(); ?>
 		</div>
 	</section>
 	<!-- Newsletter section end -->
-
-
-
-	</body>
-</html>
 <?php get_footer(); ?>

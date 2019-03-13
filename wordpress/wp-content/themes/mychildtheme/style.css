@@ -636,8 +636,16 @@ ol {
 
 .entry-content p {
   color: #68647d;
+
+  margin: 30px;
 }
+
+
 .panel-content {
+	padding: 84px;
+	width: 100%;
+	margin-top: 230px;
+	
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501755+0,2d1854+100 */
   background: #501755;
   /* Old browsers */
@@ -650,7 +658,17 @@ ol {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#501755', endColorstr='#2d1854', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
+
+.panel-content .title a {
+    color: #fff;
+	margin-bottom: 40px;
+	text-decoration:none;
+	font-size:60px;
+}
+
+}
 .blog-section {
+	
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501755+0,2d1854+100 */
 	background: #501755;
 	/* Old browsers */
@@ -662,6 +680,16 @@ ol {
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#501755', endColorstr='#2d1854', GradientType=1);
 	/* IE6-9 fallback on horizontal gradient */
+	
+}
+.blog-section h2 a {
+	font-size:40px;
+	color: #fff
+
+}
+.blog-section a:visited {
+	text-decoration:none;
+	
 }
 
 .blog-section .section-title {
