@@ -49,7 +49,7 @@
         <a href="#"><i class="fa fa-dribbble"></i></a>
         <a href="#"><i class="fa fa-behance"></i></a>
       </div>
-      <div class="header-bar-warp d-flex" style="align-items: center; padding:0px 40px 0px;margin:18px">
+      <div class="header-bar-warp d-flex">
     		<div class="site-branding site-logo">
 
     			<?php

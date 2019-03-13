@@ -18,14 +18,14 @@ get_header();
 <!-- Hero section -->
 <div class="hero-section overflow-hidden">
 	<div class="hero-slider owl-carousel">
-		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" style="background-image: url('../img/slider-bg-1.jpg');">
+		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="assets/img/slider-bg-1.jpg">
 			<div class="container">
 				<h2>Game on!</h2>
 				<p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
 				<a href="#" class="site-btn">Read More  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/double-arrow.png" /></a>
 			</div>
 		</div>
-		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center"  style="background-image: url('../img/slider-bg-2.jpg');">
+		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="./img/slider-bg-2.jpg">
 			<div class="container">
 				<h2>Game on!</h2>
 				<p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
@@ -88,7 +88,7 @@ get_header();
 				<!-- Blog item -->
 				<div class="blog-item">
 					<div class="blog-thumb">
-						<img src="./img/blog/1.jpg" alt="">
+						<img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/blog/1.jpg" />
 					</div>
 					<div class="blog-text text-box text-white">
 						<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
@@ -100,7 +100,7 @@ get_header();
 				<!-- Blog item -->
 				<div class="blog-item">
 					<div class="blog-thumb">
-						<img src="./img/blog/2.jpg" alt="">
+						<img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/blog/2.jpg" />>
 					</div>
 					<div class="blog-text text-box text-white">
 						<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
@@ -195,7 +195,7 @@ get_header();
 <!-- Blog section end -->
 
 <!-- Intro section -->
-<section class="intro-video-section set-bg d-flex align-items-end " style="background-image: url('../img/promo-bg.jpg');">
+<section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./img/promo-bg.jpg">
 	<a href="https://www.youtube.com/watch?v=uFsGy5x_fyQ" class="video-play-btn video-popup"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/solid-right-arrow.png" /></a>
 	<div class="container">
 		<div class="video-text">

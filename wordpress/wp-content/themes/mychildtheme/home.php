@@ -195,7 +195,7 @@ get_header();
 <!-- Blog section end -->
 
 <!-- Intro section -->
-<section class="intro-video-section set-bg d-flex align-items-end " style="background-image: url('../img/promo-bg.jpg');">
+<section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./img/promo-bg.jpg">
 	<a href="https://www.youtube.com/watch?v=uFsGy5x_fyQ" class="video-play-btn video-popup"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/solid-right-arrow.png" /></a>
 	<div class="container">
 		<div class="video-text">

@@ -1050,6 +1050,7 @@ ol {
 
 .footer-menu {
 	padding-top: 62px;
+	padding-bottom:62px;
 	display: block;
 }
 
@@ -1600,6 +1601,8 @@ ol {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.header-bar-warp {
 		padding: 39px 15px 0;
+		align-items: center;
+		
 	}
   .dropdown-toggle {
     display: none;

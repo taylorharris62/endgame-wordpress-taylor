@@ -27,13 +27,11 @@
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.png" />
 				</a>
 
-				<button class="menu-toggle " aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'endgame' ); ?></button>
-			  
+				
 			  		<nav id="site-navigation" class="main-navigation top-nav-area w-100">
 
 
-  			<button class="menu-toggle " aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'endgame' ); ?></button>
-			<div class="main-menu footer-menu" text-align="center">  
+  			<div class="main-menu footer-menu" text-align="center">  
 			<?php
   			wp_nav_menu( array(
   				'theme_location' => 'menu-3',
@@ -55,7 +53,7 @@
 	</footer><!-- #colophon -->
 	<!-- Footer section end -->
 
-</div><!-- #page -->
+
 	<!--====== Javascripts & Jquery ======-->
 	<script src="./js/jquery-3.2.1.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
