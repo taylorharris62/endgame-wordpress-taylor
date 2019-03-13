@@ -100,7 +100,7 @@ get_header(); ?>
 	<section class="newsletter-section">
 		<div class="container">
 			<h2>Subscribe to our newsletter</h2>
-			<form class="newsletter-form" style="display:flex; margin-bottom:90px;">
+			<form class="newsletter-form" style="display:flex; margin-bottom:243px;">
 				<input type="text" placeholder="ENTER YOUR E-MAIL">
 				<button class="site-btn">subscribe <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/double-arrow.png" /></button>
 			</form>
