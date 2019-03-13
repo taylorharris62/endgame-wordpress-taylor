@@ -18,14 +18,14 @@ get_header();
 <!-- Hero section -->
 <div class="hero-section overflow-hidden">
 	<div class="hero-slider owl-carousel">
-		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="assets/img/slider-bg-1.jpg">
+		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" style="background-image: url(assets/img/slider-bg-1.jpg) width:100%;">
 			<div class="container">
 				<h2>Game on!</h2>
 				<p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
 				<a href="#" class="site-btn">Read More  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/double-arrow.png" /></a>
 			</div>
 		</div>
-		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="./img/slider-bg-2.jpg">
+		<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center"  style="background-image: url(assets/img/slider-bg-2.jpg); width:100%;">
 			<div class="container">
 				<h2>Game on!</h2>
 				<p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
@@ -194,18 +194,6 @@ get_header();
 </section>
 <!-- Blog section end -->
 
-<!-- Intro section -->
-<section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./img/promo-bg.jpg">
-	<a href="https://www.youtube.com/watch?v=uFsGy5x_fyQ" class="video-play-btn video-popup"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/solid-right-arrow.png" /></a>
-	<div class="container">
-		<div class="video-text">
-			<h2>Promo video of the game</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-		</div>
-	</div>
-</section>
-<!-- Intro section end -->
-
 
 <!-- Featured section -->
 <section class="featured-section">
@@ -227,7 +215,7 @@ get_header();
 <section class="newsletter-section">
 	<div class="container">
 		<h2>Subscribe to our newsletter</h2>
-		<form class="newsletter-form" style="display:flex; margin-bottom:90px;">
+		<form class="newsletter-form" style="display:flex; margin-bottom:243px;">
 			<input type="text" placeholder="ENTER YOUR E-MAIL">
 			<button class="site-btn">subscribe  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/double-arrow.png" /></a></button>
 		</form>

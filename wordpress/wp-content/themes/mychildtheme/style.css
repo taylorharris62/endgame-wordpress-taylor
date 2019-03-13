@@ -329,6 +329,7 @@ ol {
 }
 
 .header-bar-warp {
+	margin: 20px;
 	background: #081624;
 	padding: 39px 40px 0;
 	-webkit-box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
