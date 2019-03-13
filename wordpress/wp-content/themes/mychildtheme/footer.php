@@ -26,13 +26,22 @@
 				<a href="#" class="footer-logo">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.png" />
 				</a>
-				<ul class="main-menu footer-menu">
-					<li><a href="">Home</a></li>
-					<li><a href="">Games</a></li>
-					<li><a href="">Reviews</a></li>
-					<li><a href="">News</a></li>
-					<li><a href="">Contact</a></li>
-				</ul>
+
+				<button class="menu-toggle " aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'endgame' ); ?></button>
+			  
+			  		<nav id="site-navigation" class="main-navigation top-nav-area w-100">
+
+
+  			<button class="menu-toggle " aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'endgame' ); ?></button>
+			<div class="main-menu footer-menu" text-align="center">  
+			<?php
+  			wp_nav_menu( array(
+  				'theme_location' => 'menu-3',
+				'menu_id'		 =>	'footer-menu',
+  			) );
+  			?>
+			
+
 				<div class="copyright">
 					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'endgame' ) ); ?>">
 						<?php
@@ -41,7 +50,7 @@
 						?>
 						 2019 @ All rights reserved</div>
 			</div>
-
+			  </div>
 <!-- .site-info -->
 	</footer><!-- #colophon -->
 	<!-- Footer section end -->
